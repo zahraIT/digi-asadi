@@ -1,0 +1,110 @@
+@font-face {
+    font-family: digifont;
+    src: url('../font/YekanV3.0/Yekan.woff') format('woff'),url('../font/YekanV3.0/Yekan.ttf') format('truetype');
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: digifont;
+}
+
+#baner{
+    width: 100%;
+    height: 60px;
+}
+
+.contain1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 12px 20px 12px 20px;
+}
+.contain2{
+    display: flex;
+    flex-direction: row;
+}
+#search{
+    background-color: #F0F0F1;
+    padding: 5px 30px 5px 500px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#logo{
+    padding: 10px 16px 0px 16px;
+}
+div.signin>img{
+    padding-right: 10px;
+    border-right: 1px solid;
+    width: 20px;
+    margin: -7px auto;
+}
+div.signin>span{
+    border: 1px solid #c2c2c3;
+    margin: 30px 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-size: 12px;
+    text-align: justify;
+}
+#sign{
+    padding-bottom: -15px;
+    padding-left:20px;
+    width: 15px;
+    margin: -5px auto;
+    margin-left: -7px;
+}
+.contain3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 142px 0px 128px;
+}
+.contain4{
+    display: flex;
+    flex-direction: row;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: -110px;
+}
+.contain5{
+    display: flex;
+    flex-direction: row;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.h1{
+    color: #62666d;
+    font-size: 13px;
+    padding-right: 16px;
+}
+
+.imgh{
+    padding-right: 12px;
+    padding-left: 4px;
+    padding-top: 8px;
+}
+.h{
+    color: #62666d;
+    font-size: 13px;
+    
+}
+#kala{
+    color: #424750;
+    font-size: 16px;
+    padding-right: 5px;
+    padding-left: 20px;
+}
+
